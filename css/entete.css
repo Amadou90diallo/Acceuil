@@ -1,0 +1,124 @@
+
+/* entete */
+
+/*.super_containeur_entete{
+	height: 2689px;
+}*/
+
+
+.containeur_entete{
+	display: block;
+	height: 555px;
+	background-color: #000000;
+}
+
+@media screen and (max-width: 606px){
+	.containeur_entete{
+		display: block;
+		height: 90%;
+		background-color: #000000;
+	}
+}
+
+.entete{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 113px 0 113px;
+}
+
+.logo{
+	margin-top: 52px;
+	width: 265px;
+	height: 44px;
+	background-image: url("../photos/PULSE.factory.png")
+}
+
+.fleche{
+	margin-top: 52px;
+	width: 36px;
+	height: 24px;
+	background-image: url("../photos/Group 2449.png");
+}
+
+/* Description Services */
+
+.body_service{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.titre{
+	color: #FFFFFF;
+	font-size: 56px;
+	margin: 238px 113px 0 113px;
+}
+
+.description_service{
+	color: #FFFFFF;
+	margin: -70px 113px 0 113px;
+}  
+
+.containeur_photo{
+	display: block;
+	justify-content: space-around;
+	height: 710px;
+	width: 700px;
+	margin-top: -40px;
+	padding-left: 30px;
+}
+
+.div_photo{
+	background-image: url("../photos/photo_acceuil_grande.png");
+	height: 145px;
+	width: 190px;
+	border-radius: 15px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.photo_milieu_1{
+	margin-top: 60px;
+}
+
+.ligne_1 {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fill, 3fr);
+}
+
+.ligne_2{
+	display: flex;
+	flex-wrap: wrap;
+	grid-template-columns: repeat(3, 3fr);
+	margin-top: -40px;
+}
+
+.ligne_3{
+	display: flex;
+	flex-wrap: wrap;
+	grid-template-columns: repeat(3, 3fr);	
+	margin-top: -40px;
+}
+
+@media screen and (max-width: 690px){
+	.div_photo{
+		display: flex;
+		flex-wrap: wrap;
+		background-image: url("../photos/photo_acceuil_petite.png");
+		height: 100px;
+		width: 100px;
+		border-radius: 15px;
+	}
+}
+
+@media screen and (max-width: 840px){
+	.containeur_photo{
+		display: flex;
+		height: auto;
+		width: auto;
+		margin: auto 0 0 0;
+	}
+}
+
+/* Fin entete */
